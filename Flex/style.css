@@ -1,0 +1,156 @@
+.homePage {
+    color: #052855;
+    font-family: 'Notosans2', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.introduction h1 {
+    padding-bottom: 22px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+.introduction {
+    padding: 64px 0px;
+    text-align: center;
+    background-color: #f7f8f9;
+
+}
+
+.featuresWrap {
+    padding: 64px 95px;
+    margin: 0 auto;
+    width: 1080px;
+    display: flex;
+    align-items: center;
+}
+
+.featureGroup {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+.feature {
+    width: 1080px;
+    padding-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.feature:first-child {
+    padding-top: 0px;
+}
+
+.feature:nth-child(2n+1) {
+    flex-direction: row-reverse;
+}
+
+.featurefeatureImage {
+    width: 483px;
+}
+
+.featureDescription {
+    width: 510px;
+}
+
+.featureDescription h2 {
+    padding: 0 0 24px;
+}
+
+.featureDescription p {
+    padding: 0 0 24px;
+}
+
+.featureDescription ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featureDescription li {
+    flex: 40%;
+    padding: 10px 20px;
+}
+
+.featureDescription li:before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #0061FF;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -20px;
+}
+
+.featureDescription a {
+    margin-top: 40px;
+    color: #0061FF;
+    border-bottom: 2px solid #0061FF;
+    display: inline-block;
+    font-weight: 500;
+    transition: .3s all;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.moreFunctionsTitle h2 {
+    background-color: #f7f8f9;
+    padding-top: 64px;
+    width: 100%;
+    text-align: center;
+}
+
+.moreFunctionsBackground {
+    background-color: #f7f8f9;
+}
+
+.moreFunctionsWrap {
+    width: 1080px;
+    padding-bottom: 65px;
+    margin: 0 auto;
+}
+
+.moreFunctions {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.Function {
+    text-align: center;
+    width: 320px;
+    margin: 0 20px;
+
+}
+
+.Function img {
+    width: 96px;
+    height: 96px;
+    margin-top: 58px;
+    margin-bottom: 24px;
+}
+
+.Function h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
