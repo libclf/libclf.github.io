@@ -123,6 +123,6 @@
     font-size: 12px;
 }
 
-.container.cardGroup :nth-child(2) {
+.cardGroup:nth-child(4) {
     flex-direction: row-reverse;
 }
